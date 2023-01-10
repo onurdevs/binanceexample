@@ -1,4 +1,4 @@
-import {View, Text, StyleSheet, ScrollView, TouchableOpacity} from 'react-native';
+import {View, Text, StyleSheet, ScrollView, TouchableOpacity, SafeAreaView} from 'react-native';
 import React from 'react';
 import {createDrawerNavigator} from '@react-navigation/drawer';
 import {NavigationContainer} from '@react-navigation/native';
@@ -9,7 +9,8 @@ const Drawer = createDrawerNavigator();
 
 const CustomDrawerContent = ({navigation}) => {
   return (
-    <View style={{flex: 1, padding: 10}}>
+    <SafeAreaView>
+      <View style={{flex: 1, padding: 10}}>
       <View style={{marginLeft: 'auto'}}>
         <Icon.Button
           onPress={() => navigation.closeDrawer()}
@@ -75,6 +76,7 @@ const CustomDrawerContent = ({navigation}) => {
         </View>
       </ScrollView>
     </View>
+    </SafeAreaView>
   );
 };
 
