@@ -38,40 +38,40 @@ const CustomDrawerContent = ({navigation}) => {
       </View>
       <ScrollView>
         <View style={styles.menuItem}>
-          <Icon name="bitcoin" size={25} color="#eaecef"></Icon>
+          <Icon name="bar-chart" size={25} color="#eaecef"></Icon>
           <Text style={styles.menuLabel}>Piyasalar</Text>
         </View>
         <View style={styles.menuItem}>
-          <Icon name="bitcoin" size={25} color="#eaecef"></Icon>
+          <Icon name="handshake-o" size={25} color="#eaecef"></Icon>
           <Text style={styles.menuLabel}>Al Sat</Text>
         </View>
         <View style={styles.menuItem}>
-          <Icon name="bitcoin" size={25} color="#eaecef"></Icon>
+          <Icon name="plus-circle" size={25} color="#eaecef"></Icon>
           <Text style={styles.menuLabel}>Kazan</Text>
         </View>
         <View style={styles.menuItem}>
-          <Icon name="bitcoin" size={25} color="#eaecef"></Icon>
+          <Icon name="pie-chart" size={25} color="#eaecef"></Icon>
           <Text style={styles.menuLabel}>Finans</Text>
         </View>
         <View style={styles.menuItem}>
-          <Icon name="bitcoin" size={25} color="#eaecef"></Icon>
+          <Icon name="image" size={25} color="#eaecef"></Icon>
           <Text style={styles.menuLabel}>NFT</Text>
         </View>
         <View style={styles.menuItem}>
-          <Icon name="bitcoin" size={25} color="#eaecef"></Icon>
+          <Icon name="bank" size={25} color="#eaecef"></Icon>
           <Text style={styles.menuLabel}>Kurumsal</Text>
         </View>
         <View style={styles.menuItem}>
-          <Icon name="bitcoin" size={25} color="#eaecef"></Icon>
+          <Icon name="feed" size={25} color="#eaecef"></Icon>
           <Text style={styles.menuLabel}>Akış</Text>
         </View>
         <View style={styles.menuItem}>
-          <Icon name="bitcoin" size={25} color="#eaecef"></Icon>
-          <Text style={styles.menuLabel}>Akış</Text>
+          <Icon name="list-alt" size={25} color="#eaecef"></Icon>
+          <Text style={styles.menuLabel}>Rehber</Text>
         </View>
         <View style={styles.menuItem}>
           <Icon name="bitcoin" size={25} color="#eaecef"></Icon>
-          <Text style={styles.menuLabel}>Akış</Text>
+          <Text style={styles.menuLabel}>Ürünler</Text>
         </View>
       </ScrollView>
     </View>
